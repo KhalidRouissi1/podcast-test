@@ -15,3 +15,6 @@ jobs:
 
       - name: Run feed generator
         uses: KhalidRouissi1/podcast-generator@main
+        with:
+          email: ${{ github.actor }}@localhost
+          name: ${{ github.actor }}
